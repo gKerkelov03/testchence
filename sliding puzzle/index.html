@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Sliding puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <button id="makePuzzleButton" class="buttons">Make puzzle</button>    
+    <canvas id="canvas"></canvas>    
+    <script src="setUp.js"></script>
+    
+    <div id="container">
+        <form>
+            <input type="text" id="imageSource" placeholder="Image source">
+            
+            <label>Dificulty</label>
+            <select id="dropDown" >
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>            
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            
+            <button id="submitInfo" class="buttons">Create</button>
+        </form>
+    </div>
+    
+    <script src="classes.js"></script>
+    <script src="functions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
